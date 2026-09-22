@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nathalia Prado Estética - Estética para Gestantes, Depilação a Laser e Estética Facial em Arujá.">
+    <meta property="og:title" content="Nathalia Prado Estética">
+    <meta property="og:description" content="Clínica especializada em Estética para Gestantes, Depilação a Laser e Estética Facial.">
+    <meta property="og:image" content="assets/hero.png">
+    <title>Nathalia Prado Estética</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Espaço Nathalia Prado Estética" class="logo-img">
+            </a>
+            
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Antes & Depois</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <a href="#contato" class="btn btn-primary cta-header">Agendar Avaliação</a>
+            
+            <button class="mobile-menu-btn" aria-label="Abrir menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <button class="close-menu-btn" aria-label="Fechar menu">
+            <i class="ph ph-x"></i>
+        </button>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Antes & Depois</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <div class="hero-badge animate-up">ESTÉTICA PREMIUM EM ARUJÁ</div>
+                <h1 class="animate-up delay-1">Estética que respeita<br>o seu tempo e o seu corpo.</h1>
+                <p class="animate-up delay-2">Especialista em Gestantes, Depilação a Laser e Cuidados Faciais.<br>Resultados reais com segurança e acolhimento.</p>
+                <div class="hero-ctas animate-up delay-3">
+                    <a href="#contato" class="btn btn-primary">Quero minha avaliação</a>
+                    <a href="#servicos" class="btn btn-outline-light">Conheça nossos serviços</a>
+                </div>
+            </div>
+            <div class="hero-image animate-up delay-2">
+                <img src="assets/hero-new.png" alt="Nathalia Prado - Especialista em Estética">
+            </div>
+        </div>
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator animate-up delay-3">
+            <span>Role para descobrir</span>
+            <i class="ph ph-caret-down"></i>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="sobre" id="sobre">
+        <div class="container sobre-grid">
+            <div class="sobre-img-wrapper reveal-left">
+                <img src="assets/sobre.png" alt="Nathalia Prado" class="sobre-img parallax-img">
+                <div class="experience-badge">
+                    <span class="number">Exclusivo</span>
+                    <span class="text">Atendimento<br>Personalizado</span>
+                </div>
+            </div>
+            <div class="sobre-text reveal-right">
+                <h2 class="section-title">Sobre a Nathalia</h2>
+                <p>Com um olhar refinado e foco no bem-estar integral, a Nathalia Prado Estética nasceu para oferecer tratamentos seguros, com resultados reais e uma experiência acolhedora.</p>
+                <p>Nossa clínica no coração de Arujá é um refúgio pensado para você desacelerar enquanto cuidamos da sua saúde e beleza. Somos especialistas no atendimento humanizado a gestantes, oferecendo segurança em cada etapa.</p>
+                
+                <ul class="diferenciais">
+                    <li><i class="ph ph-check-circle"></i> Cuidado personalizado</li>
+                    <li><i class="ph ph-check-circle"></i> Ambiente acolhedor e premium</li>
+                    <li><i class="ph ph-check-circle"></i> Tecnologia e segurança</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p>Tratamentos desenhados para realçar a sua beleza natural.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal-up stagger-1">
+                    <div class="icon-wrapper"><i class="ph ph-sparkle"></i></div>
+                    <h3>Estética Facial</h3>
+                    <p>Limpeza de pele profunda, peelings químicos e protocolos de skincare personalizados para uma pele radiante.</p>
+                    <button class="btn-link wpp-service-link" data-service="Estética Facial">Saiba mais <i class="ph ph-arrow-right"></i></button>
+                </div>
+                
+                <div class="service-card reveal-up stagger-2">
+                    <div class="icon-wrapper"><i class="ph ph-drop"></i></div>
+                    <h3>Estética para Gestantes</h3>
+                    <p>Protocolos seguros e relaxantes, focados no alívio de tensões, retenção de líquidos e cuidados com a pele na gravidez.</p>
+                    <button class="btn-link wpp-service-link" data-service="Estética para Gestantes">Saiba mais <i class="ph ph-arrow-right"></i></button>
+                </div>
+                
+                <div class="service-card reveal-up stagger-3">
+                    <div class="icon-wrapper"><i class="ph ph-sun"></i></div>
+                    <h3>Depilação a Laser</h3>
+                    <p>Tecnologia avançada para remoção duradoura dos pelos, com conforto e eficácia para todos os tipos de pele.</p>
+                    <button class="btn-link wpp-service-link" data-service="Depilação a Laser">Saiba mais <i class="ph ph-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Antes e Depois -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Antes & Depois</h2>
+                <p>Resultados reais das nossas pacientes.</p>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item reveal-up stagger-1">
+                    <img src="assets/antes_depois_1.jpg" alt="Antes e Depois - Tratamento Facial" loading="lazy">
+                    <div class="galeria-label">Limpeza de Pele</div>
+                </div>
+                <div class="galeria-item reveal-up stagger-2">
+                    <img src="assets/antes_depois_2.jpg" alt="Antes e Depois - Rejuvenescimento" loading="lazy">
+                    <div class="galeria-label">Rejuvenescimento</div>
+                </div>
+                <div class="galeria-item reveal-up stagger-3">
+                    <img src="assets/antes_depois_3.jpg" alt="Antes e Depois - Depilação a Laser" loading="lazy">
+                    <div class="galeria-label">Depilação a Laser</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">O que dizem sobre nós</h2>
+                <p>A satisfação de quem confia em nosso trabalho.</p>
+            </div>
+            <div class="depoimentos-grid reveal-up stagger-1">
+                <div class="depoimento-card">
+                    <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                    <p>"Atendimento impecável! Me senti super segura durante toda a gestação."</p>
+                    <strong>- Cliente A.</strong>
+                </div>
+                <div class="depoimento-card">
+                    <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                    <p>"A depilação a laser não doeu nada e os resultados foram visíveis desde a primeira sessão."</p>
+                    <strong>- Cliente B.</strong>
+                </div>
+                <div class="depoimento-card">
+                    <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                    <p>"Ambiente maravilhoso, acolhedor e a Nathalia é muito profissional."</p>
+                    <strong>- Cliente C.</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram-feed">
+        <div class="container">
+            <div class="instagram-cta reveal-up">
+                <i class="ph ph-instagram-logo insta-icon"></i>
+                <h2 class="section-title">Acompanhe nosso dia a dia</h2>
+                <p>Fique por dentro de dicas de cuidados, resultados reais e novidades no nosso perfil.</p>
+                <a href="https://www.instagram.com/nathaliapradoestetica/" target="_blank" class="btn btn-outline insta-btn">
+                    Seguir @nathaliapradoestetica
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização & Contato -->
+    <section class="local-contato" id="localizacao">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Nossa Localização</h2>
+                <p>Faça-nos uma visita e conheça nosso espaço.</p>
+            </div>
+            
+            <div class="map-wrapper reveal-up">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.3!2d-46.315!3d-23.395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce72b5d4e1b5e7%3A0x0!2sR.+Mariana+Lourenço%2C+33+-+Jardim+Angelo%2C+Aruj%C3%A1+-+SP%2C+07400-240!5e0!3m2!1spt-BR!2sbr!4v1695000000000!5m2!1spt-BR!2sbr"
+                    width="100%" 
+                    height="400" 
+                    style="border:0; border-radius: 8px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Localização Nathalia Prado Estética">
+                </iframe>
+            </div>
+            
+            <div class="dual-grid">
+                <div class="local-info reveal-left">
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class="ph ph-map-pin"></i>
+                            <div>
+                                <strong>Endereço</strong>
+                                <p>R. Mariana Lourenço, 33 - Sl 26, 2º andar<br>Jardim Angelo, Arujá - SP, 07400-240</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ph ph-clock"></i>
+                            <div>
+                                <strong>Horário de Atendimento</strong>
+                                <p>Segunda a Sexta: 09h às 19h<br>Sábados: 09h às 13h</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="https://maps.google.com/?q=R.+Mariana+Lourenço,+33+-+Sl+26,+2º+andar+-+Jardim+Angelo,+Arujá+-+SP,+07400-240" target="_blank" class="btn btn-outline">
+                        Como Chegar <i class="ph ph-arrow-up-right"></i>
+                    </a>
+                </div>
+                
+                <div class="form-wrapper reveal-right" id="contato">
+                    <h3 class="form-title">Agende sua Avaliação</h3>
+                    <p class="form-subtitle">Preencha os dados abaixo e fale diretamente conosco pelo WhatsApp.</p>
+                    
+                    <form id="leadForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" required placeholder="(11) 90000-0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="servico">Serviço de Interesse</label>
+                            <select id="servico" name="servico" required>
+                                <option value="" disabled selected>Selecione uma opção</option>
+                                <option value="Avaliação Geral">Avaliação Geral</option>
+                                <option value="Estética Facial">Estética Facial</option>
+                                <option value="Estética para Gestantes">Estética para Gestantes</option>
+                                <option value="Depilação a Laser">Depilação a Laser</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem (Opcional)</label>
+                            <textarea id="mensagem" name="mensagem" rows="3" placeholder="Alguma dúvida ou observação?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar para WhatsApp <i class="ph ph-whatsapp-logo"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="#" class="logo footer-logo">
+                    <img src="assets/logo.png" alt="Espaço Nathalia Prado Estética" class="footer-logo-img">
+                </a>
+                <p>Estética avançada e humanizada em Arujá.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nathaliapradoestetica/" target="_blank" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="https://wa.me/5511972287724" target="_blank" aria-label="WhatsApp"><i class="ph ph-whatsapp-logo"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p><i class="ph ph-whatsapp-logo"></i> +55 11 97228-7724</p>
+                <p><i class="ph ph-map-pin"></i> R. Mariana Lourenço, 33 - Sl 26, Arujá - SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Nathalia Prado Estética. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5511972287724" target="_blank" class="wpp-floating" aria-label="Fale conosco no WhatsApp">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
