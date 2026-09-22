@@ -1037,26 +1037,36 @@ footer {
     
     .hero-inner {
         flex-direction: column;
-        justify-content: center;
-        gap: 2rem;
-        padding-top: 8rem;
+        justify-content: flex-start;
+        gap: 1.5rem;
+        padding-top: 6rem;
     }
     
     .hero-image {
-        display: none; /* Hide image on mobile to save space */
+        display: flex;
+        max-height: 40vh; /* Ajuste para não empurrar muito o conteúdo */
+        width: 100%;
+        margin-top: auto;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        object-fit: contain;
     }
 
     .hero-content {
         text-align: center;
+        margin-bottom: 0;
     }
 
     .hero-badge {
-        margin: 0 auto 2rem;
+        margin: 0 auto 1.5rem;
     }
 
     .hero-content p {
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 1.5rem;
     }
 
     .hero-ctas {
